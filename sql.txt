@@ -1,0 +1,32 @@
+CREATION
+create table TRIP (
+	TNO INT primary key,
+	FROM_CITY char(20),
+	TO_CITY char(20),
+	DEPARTURE_DATE DATE,
+	RETURN_DATE DATE
+);
+
+create table EXPENSE (
+	EID INT primary key,
+	AMT INT
+);
+
+create table SALESMAN (
+	SNO INT primary key,
+	S_NAME char(30),
+	START_YEAR DATE,
+	DEPTNO varchar(10) references DEPT(DEPTNO)
+);
+
+create table DEPT (DEPTNO VARCHAR (10) primary key, DEPT_NAME CHAR(20));
+ 
+INSERTION
+
+insert into EXPENSE values 
+(001, 100000),
+(002, 200000),
+(003, 130000),
+(004, 240000)
+
+
