@@ -1,0 +1,28 @@
+INSERTION
+
+insert into EXPENSE values 
+(001, 100000),
+(002, 200000),
+(003, 130000),
+(004, 240000)
+
+
+insert into TRIP values 
+(0005, 'delhi', 'varnasi', '2022-05-22', '2022-05-25')
+
+insert into TRIP values 
+(0004, 'pune', 'delhi', '2022-05-22', '2022-05-25')
+
+
+insert into TRIP values 
+(0003, 'mysore', 'bangalore', '2022-05-22', '2022-05-25')
+
+insert into TRIP values 
+(0002, 'mysore', 'chennai', '2022-05-22', '2022-05-25')
+
+insert into TRIP values 
+(0001, 'blore', 'chennai', '2022-05-22', '2022-05-25')
+insert into SALESMAN values 
+
+(0001, 'name-1', '2000-04-01', 'sales'),
+(0002, 'name-2', '2010-04-01', 'IT')
